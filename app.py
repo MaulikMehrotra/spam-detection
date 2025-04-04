@@ -8,6 +8,17 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 from sklearn.feature_extraction.text import CountVectorizer
 
+import subprocess
+
+try:
+    import nltk
+except ImportError:
+    subprocess.run(["pip", "install", "nltk"])
+    import nltk
+
+nltk.download('punkt') 
+
+
 nltk.download("stopwords")
 
 # Load the trained RandomForest model
