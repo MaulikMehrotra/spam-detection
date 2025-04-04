@@ -19,6 +19,8 @@ except ImportError:
 nltk.download('punkt') 
 
 
+
+nltk.download('punkt')
 nltk.download("stopwords")
 
 # Load the trained RandomForest model
