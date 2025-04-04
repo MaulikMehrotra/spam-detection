@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+nltk 
+sklearn
+string
+streamlit
+pickle
+joblib
